@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'asciiart/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "asciiart"
+  gem.name          = "neonichu-asciiart"
   gem.version       = AsciiArt::VERSION
   gem.authors       = ["nodanaonlyzuul", "rosscooperman"]
   gem.email         = ["stephen@eastmedia.com"]
   # gem.description   = %q{A command line tool to turn images into ASCII art}
   gem.summary       = %q{A command line tool to turn images into ASCII art}
-  gem.homepage      = "https://github.com/nodanaonlyzuul/asciiart"
+  gem.homepage      = "https://github.com/neonichu/asciiart"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
