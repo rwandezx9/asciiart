@@ -3,7 +3,6 @@ require 'RMagick'
 require 'uri'
 require 'open-uri'
 require 'rainbow'
-require 'rainbow/ext/string'
 
 class AsciiArt
 
